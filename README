@@ -1,0 +1,53 @@
+README
+
+Estas son todas las practicas del profesor Tecla Parra Roberto de la Materia de Estructuras de Datos.
+
+Instrucciones Generales:
+
+	$ make all
+
+		Compila y crea binarios optimizados para tu arquitectura, de todas las practicas hasta el momento [6 Practicas]
+
+	$ make cleanAll
+
+		 Limpia el entorno : Elimina  los archivos objeto almacenados en la carpeta ./temporales, tambien elimina los binarios optimizados
+		y otros archivo basura.
+
+
+Instrucciones Especificas de cada Regla:
+
+	$ make Palindromo 
+
+		Crea la Practica 1
+
+	$ make Analisa
+
+		Crea la Practica 2
+	
+	$ make ColaAbstracta
+		
+		Crea la Practica 3
+
+	$ make Perros
+
+		Crea la Practica 4
+
+	$ make ListaEmp
+
+		Ejemplo Ilustrativo
+
+	$ make ArbolB
+
+		Crea la Practica 5
+
+	$ make PerrosM
+
+		Crea la Practica 6
+
+
+Agrega tu nombre si has hecho una contribucion a este codigo:
+
+Ricardo Octavio sudermannx(at)gmail.com
+
+	
+

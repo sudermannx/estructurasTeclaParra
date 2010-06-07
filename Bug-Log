@@ -1,0 +1,65 @@
+ 
+Bugs e Inconsistencias:
+
+====================>
+
+BUG # 1
+
+Fecha: Domingo 6 de Junio del 2010
+
+Por: sudermannx@gmail.com
+
+Nombre de la Regla: PerrosM
+
+Descipcion: No-Disponible
+
+Estado: No Corregido
+
+Detalles:
+
+make PerrosM
+make[1]: Entering directory `/home/richard/repositorios/estructurasTeclaParra'
+gcc -c -O3 -march=native -mtune=native -pipe -Wall -g3  ./bibliotecas/interfazPerrosM.c
+./bibliotecas/interfazPerrosM.c: In function 'evalua':
+./bibliotecas/interfazPerrosM.c:56: warning: control reaches end of non-void function
+mv ./interfazPerrosM.o ./temporales/
+gcc -o PerrosM -O3 -march=native -mtune=native -pipe -Wall -g3  ./practicas/practica6/PerrosM.c ./temporales/interfazPerros.o  ./temporales/interfazArbolB.o  ./temporales/interfazPerrosM.o 
+make[1]: Leaving directory `/home/richard/repositorios/estructurasTeclaParra'
+
+====================>
+
+====================>
+
+BUG # 2
+
+Fecha: Domingo 6 de Junio del 2010
+
+Por: sudermannx@gmail.com
+
+Nombre de la Regla: ArbolB
+
+Descipcion: No-Disponible
+
+Estado: No Corregido
+
+Detalles:
+
+make ArbolB
+make[1]: Entering directory `/home/richard/repositorios/estructurasTeclaParra'
+gcc -c -O3 -march=native -mtune=native -pipe -Wall -g3  ./bibliotecas/interfazArbolB.c
+./bibliotecas/interfazArbolB.c: In function 'Recursiva':
+./bibliotecas/interfazArbolB.c:119: warning: passing argument 1 of 'strlen' from incompatible pointer type
+/usr/include/string.h:397: note: expected 'const char *' but argument is of type 'char (*)[100]'
+./bibliotecas/interfazArbolB.c:119: warning: passing argument 1 of '__strdup' from incompatible pointer type
+/usr/include/bits/string2.h:1303: note: expected 'const char *' but argument is of type 'char (*)[100]'
+./bibliotecas/interfazArbolB.c:120: warning: passing argument 1 of 'strlen' from incompatible pointer type
+/usr/include/string.h:397: note: expected 'const char *' but argument is of type 'char (*)[100]'
+./bibliotecas/interfazArbolB.c:120: warning: passing argument 1 of '__strdup' from incompatible pointer type
+/usr/include/bits/string2.h:1303: note: expected 'const char *' but argument is of type 'char (*)[100]'
+./bibliotecas/interfazArbolB.c:115: warning: ignoring return value of 'scanf', declared with attribute warn_unused_result
+./bibliotecas/interfazArbolB.c:117: warning: ignoring return value of 'scanf', declared with attribute warn_unused_result
+mv ./interfazArbolB.o ./temporales/
+gcc -o ArbolB -O3 -march=native -mtune=native -pipe -Wall -g3  ./practicas/practica5/ArbolB.c ./temporales/interfazArbolB.o 
+make[1]: Leaving directory `/home/richard/repositorios/estructurasTeclaParra'
+
+====================>
